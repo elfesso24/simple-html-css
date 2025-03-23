@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محفظة البرمجة</title>
+    <link rel="stylesheet" href="my_style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="nav__link">الرئيسية</a>
+            <a href="#about" class="nav__link">عني</a>
+            <a href="#skills" class="nav__link">مهارات</a>
+            <a href="#contact" class="nav__link">تواصل</a>
+            <a href="#work" class="nav__link">العمل</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="home__content">
+                <h1 class="home__title"> مرحبا انا فراس </h1>
+                <br>
+                <img src="coder.png" alt="صورة رئيسية" class="home__img">
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <h2 class="section-title">عني</h2>
+            <div class="about__content">
+                <img src="coding.png" alt="صورة شخصية" class="about__img">
+                <p>أنا مهندس برمجيات ذو خبرة واسعة في تطوير البرمجيات والتطبيقات <br> أعمل مع تقنيات متعددة وأتمتع بشغف حل المشكلات وتقديم حلول مبتكرة</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">مهاراتي</h2>
+            <div class="skills__container">
+                <div class="skills__card">
+                    <h3>هندسة نظم</h3>
+                    <p>System Administrator in linux distributions (ubuntu) </p>
+                </div>
+                <div class="skills__card">
+                    <h3>البرمجة بلغة بايثون</h3>
+                    <p> DATA ANALIST pandas بأستخدام مكتبة  </p>
+                </div>
+                <div class="skills__card">
+                    <h3>قواعد البيانات</h3>
+                    <p>إدارة قواعد البيانات باستخدام SQL server و MYSQL.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">تواصل معي</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="الاسم الكامل" class="contact__input" required>
+                <input type="email" placeholder="البريد الإلكتروني" class="contact__input" required>
+                <textarea placeholder="رسالتك" class="contact__input" rows="4" required></textarea>
+                <button type="submit" class="contact__button">إرسال</button>
+            </form>
+        </section>
+
+        <section id="work" class="work">
+            <h2 class="section-title">أعمالي</h2>
+            <div class="work__container">
+                <div class="work__card">
+                    <img src="testing.png" alt="مشروع 1" class="work__img">
+                    <h3>مشروع 1</h3>
+                    <p>finding data correlation in Sales ERP System</p>
+                </div>
+                <div class="work__card">
+                    <img src="programming.png" alt="مشروع 2" class="work__img">
+                    <h3>مشروع 2</h3>
+                    <p>منظومة مكتبة الكترونية للاطلاع وتحميل الكتب</p>
+                </div>
+                <div class="work__card">
+                    <img src="coding_last.png" alt="مشروع 3" class="work__img">
+                    <h3>مشروع 3</h3>
+                    <p>منظومة تتبع بضائع الكترونية</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__copy">&copy; el_fesso جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
